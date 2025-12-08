@@ -13,6 +13,7 @@ const Hero = () => {
 
       <div className='container mx-auto px-4 pt-20 relative z-10'>
         <div className='grid lg:grid-cols-2 gap-12 items-center'>
+          {/* Left Content */}
           <div>
             <div
               className='inline-flex items-center gap-2 bg-primary-foreground/10 rounded-full px-4 py-2 mb-6 opacity-0 animate-fade-up'
@@ -51,7 +52,7 @@ const Hero = () => {
                 <Button
                   variant='hero'
                   size='xl'
-                  className='bg-green-500  text-white flex items-center gap-2'
+                  className='bg-green-500 text-white flex items-center gap-2'
                 >
                   <MessageCircle className='w-7 h-7 text-white' />
                   Connect on WhatsApp
@@ -85,17 +86,17 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Hero Image */}
+          {/* Responsive Hero Image — Visible on ALL screens */}
           <div
-            className='hidden lg:block opacity-0 animate-fade-up'
+            className='opacity-0 animate-fade-up flex justify-center lg:justify-end'
             style={{ animationDelay: '0.3s' }}
           >
-            <div className='relative'>
-              <div className='absolute inset-0 bg-accent/20 rounded-2xl blur-2xl transform translate-x-4 translate-y-4' />
+            <div className='relative w-full max-w-[420px] sm:max-w-[500px] lg:max-w-full'>
+              <div className='absolute inset-0 bg-accent/20 rounded-2xl blur-2xl transform translate-x-3 translate-y-3' />
               <img
                 src={heroImage}
                 alt='Professional appliance repair technician'
-                className='relative rounded-2xl shadow-2xl w-full h-full object-cover'
+                className='relative rounded-2xl shadow-2xl w-full h-auto object-cover'
               />
             </div>
           </div>
