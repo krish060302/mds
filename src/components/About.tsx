@@ -1,12 +1,12 @@
 import { CheckCircle2 } from 'lucide-react'
+import aboutImage from '@/assets/about_us.jpg'
 
 const features = [
   'Licensed and insured technician',
   'Transparent pricing with no hidden fees',
   'Same-day and emergency services available',
-  '90-day warranty on all repairs',
   'Genuine replacement parts only',
-  'Serving residential and commercial clients',
+  'Serving residential clients',
 ]
 
 const About = () => {
@@ -43,21 +43,12 @@ const About = () => {
           </div>
 
           <div className='relative'>
-            <div className='aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 p-8 flex items-center justify-center'>
-              <div className='text-center'>
-                <div className='font-display text-6xl md:text-7xl font-bold text-primary mb-2'>
-                  10+
-                </div>
-                <p className='text-muted-foreground font-medium'>
-                  Years of Experience
-                </p>
-              </div>
-            </div>
-            <div className='absolute -bottom-6 -left-6 bg-card rounded-xl p-6 shadow-card'>
-              <div className='font-display text-3xl font-bold text-accent mb-1'>
-                50+
-              </div>
-              <p className='text-muted-foreground text-sm'>Happy Customers</p>
+            <div className='aspect-square rounded-2xl overflow-hidden shadow-lg'>
+              <img
+                src={aboutImage}
+                alt='About Us'
+                className='w-full h-full object-cover'
+              />
             </div>
           </div>
         </div>

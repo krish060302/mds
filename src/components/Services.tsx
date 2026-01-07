@@ -11,17 +11,16 @@ const services = [
   },
   {
     icon: Snowflake,
-    title: 'Refrigerator & Freezer Repair',
+    title: 'Refrigerator Repair',
     description:
-      'Keep your food fresh with our professional refrigerator and freezer repair services. We handle all cooling issues.',
+      'Keep your food fresh with our professional refrigerator repair services. We handle all cooling issues.',
     features: ['Temperature issues', 'Ice maker repair', 'Seal replacement'],
   },
   {
     icon: WashingMachine,
     title: 'Washing Machine Repair',
-    description:
-      'From front-loaders to top-loaders, we repair all washing machine types. Get your laundry routine back on track.',
-    features: ['Drum repairs', 'Motor issues', 'Drain problems'],
+    description: 'We repair all types of washing machines.',
+    features: ['PCB Problems', 'Body Replace'],
   },
 ]
 

@@ -71,12 +71,7 @@ const Hero = () => {
                   Same-Day Service
                 </span>
               </div>
-              <div className='flex items-center gap-2'>
-                <Shield className='w-5 h-5 text-accent' />
-                <span className='text-primary-foreground/80 text-sm'>
-                  90-Day Warranty
-                </span>
-              </div>
+
               <div className='flex items-center gap-2'>
                 <Wrench className='w-5 h-5 text-accent' />
                 <span className='text-primary-foreground/80 text-sm'>

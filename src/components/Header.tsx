@@ -39,8 +39,12 @@ const Header = () => {
         </nav>
 
         <a href='tel:9850507173'>
-          <Button variant='accent' size='sm' className='gap-2'>
-            <Phone className='w-4 h-4' />
+          <Button
+            variant='accent'
+            size='sm'
+            className='gap-2 bg-white text-green-600 border border-green-600 hover:bg-green-50'
+          >
+            <Phone className='w-4 h-4 text-green-600' />
             <span className='hidden sm:inline'>Call Now</span>
           </Button>
         </a>

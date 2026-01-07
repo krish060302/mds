@@ -38,7 +38,7 @@ const Contact = () => {
                 <div>
                   <p className='text-primary-foreground/60 text-sm'>Email Us</p>
                   <p className='text-primary-foreground font-semibold'>
-                    info@mdsenterprise.com
+                    mangeshshinde7173@gmail.com
                   </p>
                 </div>
               </div>
